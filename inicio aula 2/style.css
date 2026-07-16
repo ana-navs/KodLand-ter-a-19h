@@ -1,0 +1,29 @@
+body {
+    font-family:Poppins, sans-serif; /* Font family */
+    font-size: 12px; /* O tamanho da fonte principal<p></p> tag  */
+    background-color: #ffffff; /* A cor do plano de fundo da página */
+    color: #1e032c; /* A cor do texto */ 
+}
+
+h1 {
+    color: #7b00a1; /* A cor do cabeçalho */
+    font-size: 24px; /* A cor da fonte do cabeçalho */
+    font-family: Poppins, sans-serif; /* A font usada no cabeçalho*/
+    font-variant: small-caps;
+}
+
+h1:hover{
+    animation: color-change 3s infinite;
+    transform: scale(1,05);
+}
+
+h2 {
+    color: #b262e4;
+    font-size: 18px;
+}
+
+@keyframes color-change {
+    0% {color: #972eb8;}
+    50% {color: #2a19c4;}
+    100% {color: #286bf2;}
+}

@@ -1,0 +1,18 @@
+body {
+    font-family:Poppins, sans-serif; /* Font family */
+    font-size: 12px; /* O tamanho da fonte principal<p></p> tag  */
+    background-color: #f6c9fd; /* A cor do plano de fundo da página */
+    color: #1e032c; /* A cor do texto */ 
+}
+
+h1 {
+    color: #7b00a1; /* A cor do cabeçalho */
+    font-size: 24px; /* A cor da fonte do cabeçalho */
+    font-family: Poppins, sans-serif; /* A font usada no cabeçalho*/
+    font-variant: small-caps;
+}
+
+h2 {
+    color: #b262e4;
+    font-size: 18px;
+}
